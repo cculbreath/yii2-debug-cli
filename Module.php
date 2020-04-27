@@ -29,7 +29,7 @@ class Module extends CoreModule
     public $profilingPanelId = 'profiling';
     public $defaultPanel = 'profiling';
     public $historySize = 10000;
-    public $dataPath = '@root/frontend/runtime/debug';
+    public $dataPath = '@app/runtime/debug';
     
     /**
      * {@inheritdoc}
